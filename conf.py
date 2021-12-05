@@ -20,7 +20,7 @@ import re
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-
+#如果扩展(或用autodoc编写文档的模块)在另一个目录中，将这些目录添加到sys路径。如果目录是相对于文档根目录的，那么使用os.path.abspath使其成为绝对目录，如下面所示。
 def setup(sphinx):
     sys.path.insert(0, os.path.abspath('./utils'))
     from SolidityLexer import SolidityLexer
@@ -30,10 +30,11 @@ def setup(sphinx):
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
-
+#如果您的文档需要一个最小的Sphinx版本，请在这里说明。needs_sphinx = ' 1.0 '
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# 在这里添加任何Sphinx扩展模块名称，作为字符串。它们可以是Sphinx自带的扩展(命名为' Sphinx .ext.*')，也可以是您自定义的扩展。
 extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
